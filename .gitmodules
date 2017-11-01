@@ -1,0 +1,15 @@
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+[submodule "bundle/vim-latex"]
+	path = bundle/vim-latex
+	url = https://github.com/vim-latex/vim-latex.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "bundle/vim-clang-format"]
+	path = bundle/vim-clang-format
+	url = https://github.com/rhysd/vim-clang-format.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
