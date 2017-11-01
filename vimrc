@@ -108,4 +108,5 @@ let g:clang_format#detect_style_file=1
 " F8 will toggle the tagbar window
 nmap <F8> :TagbarToggle<CR>
 
-
+" Airline style
+let g:airline_theme='deus'
