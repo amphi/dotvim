@@ -105,10 +105,6 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " clang-format use style file
 let g:clang_format#detect_style_file=1
 
-" clang-autocomplete clang library path
-let g:clang_library_path='/usr/lib/llvm-4.0/lib'
-
-
 " F8 will toggle the tagbar window
 nmap <F8> :TagbarToggle<CR>
 
