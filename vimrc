@@ -96,11 +96,11 @@ set tags+=~/.vim/tags/qt4
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 
 " open nerdtree when vim starts up
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 
 " open nerdtree when vim starts up and no files are specified
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+" autocmd StdinReadPre * let s:std_in=1
+" autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " clang-format use style file
 let g:clang_format#detect_style_file=1
