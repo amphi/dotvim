@@ -10,7 +10,8 @@ set nocompatible
 filetype indent plugin on
 
 " Color scheme
-colo elflord
+set t_Co=256
+colo cobalt2
 
 " Enable syntax highlighting
 syntax on
@@ -84,7 +85,6 @@ set termencoding=utf-8
 set colorcolumn=110
 highlight ColorColumn ctermbg=darkgray
 
-set t_Co=256
 set showmatch
 set comments=sl:/*,mb:\ *,elx:\ */
 
